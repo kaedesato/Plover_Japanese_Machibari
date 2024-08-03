@@ -8,7 +8,7 @@ IMPLICIT_HYPHEN_KEYS = ('#')
 
 SUFFIX_KEYS = ()
 
-NUMBER_KEY = '#'
+NUMBER_KEY = None
 
 NUMBERS = {}
 
