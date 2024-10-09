@@ -1,11 +1,16 @@
+#pythonの基本らしいけど、なんか各行文字列の最初の空白（インデント）によってコードの内容が変化するみたいだよ
+#改変するときは気をつけてね（100敗）
+
 #正規表現(Regex)を有効化すると宣言するよ
 import re
 
 #打鍵が続けられる長さを指定するよ (Plover Python dictionary)
 LONGEST_KEY = 1
 
+#おまじない　自分もよくわかってないよ
 def lookup(key):
     assert len(key) <= LONGEST_KEY
+    #keyを0にしないとこのコードはPloverで動かないらしいよ　Plover外で確認するときはこの数字を入力する文字の数以上にしたら動いた記憶があるよ
     stroke = key[0]
 
 #ストロークが*か*-*か#のときにKeyErrorを出すよ    
